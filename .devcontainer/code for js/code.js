@@ -99,3 +99,13 @@ function reverseString(str: string): string {
 
 console.log(reverseString("TypeScript")); // "tpircSepyT"
 
+
+//remove duplicate from an array
+const numbers: number[] = [1, 2, 2, 3, 4, 4, 5];
+
+// Using Set and Spread operator
+const uniqueNumbers = [...new Set(numbers)]; 
+
+console.log(uniqueNumbers); // [1, 2, 3, 4, 5]
+
+
