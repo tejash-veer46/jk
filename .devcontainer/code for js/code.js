@@ -91,3 +91,11 @@ myCalc.calculate();
 
 console.log(`Result: ${myCalc.getDisplay()}`); // Output: Result: 15
 
+
+
+function reverseString(str: string): string {
+  return str.split("").reverse().join("");
+}
+
+console.log(reverseString("TypeScript")); // "tpircSepyT"
+
